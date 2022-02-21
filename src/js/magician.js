@@ -1,9 +1,9 @@
-import Character from './app';
+import MathCharacter from './terms';
 
-export default class Magician extends Character {
+export default class Magician extends MathCharacter {
   constructor(name, type = 'Magician') {
     super(name, type);
     this.attack = 10;
-    this.defens = 40;
+    this.defence = 40;
   }
 }

@@ -1,9 +1,9 @@
-import Character from './app';
+import MathCharacter from './terms';
 
-export default class Daemon extends Character {
+export default class Daemon extends MathCharacter {
   constructor(name, type = 'Daemon') {
     super(name, type);
     this.attack = 10;
-    this.defens = 40;
+    this.defence = 40;
   }
 }
